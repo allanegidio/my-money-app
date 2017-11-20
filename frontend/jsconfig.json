@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+	  // This must be specified if "paths" is set
+	  "baseUrl": ".",
+	  "target": "ES6",
+	  "allowSyntheticDefaultImports": true,
+	  "module": "commonjs",
+	  // Relative to "baseUrl"
+	  "paths": {
+		"*": [
+		  "*",
+		  "src/*"
+		]
+	  }
+	},
+	"exclude": [
+        "public",
+        "node_modules"
+    ]
+  }
